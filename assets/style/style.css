@@ -1,0 +1,477 @@
+:root {
+    --letraNavFoot: #ffbd07;
+    --colorNavFootText: #111a1b;
+    --colorMain: hwb(0 89% 9%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    height: 10vh;
+    background-color: var(--colorNavFootText);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.linkPages {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a {
+    color: var(--letraNavFoot);
+    text-decoration: none;
+}
+
+.anchorNav:hover {
+    background-color: var(--letraNavFoot);
+    border-radius: 5px;
+    color: var(--colorNavFootText);
+}
+
+.logoMuse {
+    height: 9vh;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 15vh;
+    color: var(--letraNavFoot);
+    padding-top: 3vh;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    background-color: var(--colorMain);
+}
+
+main {
+    min-height: 65vh;
+}
+
+.mainHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagePrin {
+    height: 30vh;
+    width: 80vw;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.sectPrin {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    gap: 8vw;
+}
+
+h5 {
+    width: 40vw;
+}
+
+.imagePrinSec {
+    height: 25vh;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.divAbout {
+    height: 21vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.imageSec {
+    height: 18vh;
+    width: 18vw;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+
+.textAbout {
+    width: 20vw;
+    text-align: center;
+}
+
+.imagCont {
+    height: 40vh;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.textContact {
+    padding-top: 12px;
+    text-align: center;
+}
+
+.mainInformation {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+table {
+    width: 30vw;
+    height: 50vh;
+    border-collapse: collapse;
+}
+
+tr,
+th,
+td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 10vw;
+}
+
+.imgBen {
+    height: 28vh;
+    width: 15vw;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+
+.mainBenefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+ol {
+    width: 20vw;
+}
+
+ul {
+    width: 25vw;
+    list-style-type: disc;
+}
+
+.boxBenefits {
+    height: 32vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.contPrin {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoContact {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.infoContact2 {
+    color: var(--colorNavFootText);
+}
+
+.mainRaffle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.raffleLocation {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map {
+    width: 40vw;
+    height: 50vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.formRaffle {
+    width: 22vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.cash {
+    display: flex;
+}
+
+.creditCard {
+    display: flex;
+}
+
+.debitCard {
+    display: flex;
+}
+
+.message {
+    resize: none;
+    max-width: 20vw;
+    height: 10vh;
+}
+
+
+.Submit {
+    width: 5vw;
+}
+
+.terms {
+    font-size: 10px;
+}
+
+.endForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 10vh;
+    background-color: var(--colorNavFootText);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pFoot {
+    text-align: center;
+    color: var(--letraNavFoot);
+}
+
+/* TABLET */
+@media (min-width:768px) and (max-width: 1023px) {
+
+    nav {
+        min-height: 33vh;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .linkPages {
+        flex-direction: column;
+    }
+
+    .logoMuse {
+        height: 12vh;
+    }
+
+    .cash {
+        font-size: 10px;
+    }
+
+    .debitCard {
+        font-size: 10px;
+    }
+
+    .creditCard {
+        font-size: 10px;
+    }
+
+}
+
+/* MOBILE */
+@media(max-width:767px) {
+
+    nav {
+        min-height: 25vh;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    .imagePrinSec {
+        width: 50vw;
+    }
+
+    main {
+        min-height: 74vh;
+        flex-direction: column;
+    }
+
+    .sectPrin {
+        height: 55vh;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    h5 {
+        margin-bottom: 1rem;
+    }
+
+    .logoMuse {
+        height: 8vh;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    header {
+        padding-top: 0;
+    }
+
+    .imageSec {
+        width: 50vw;
+        height: 18vh;
+    }
+
+    .textContact {
+        text-align: inherit;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    .divAbout {
+        flex-direction: column;
+        gap: 0;
+        height: 25vh;
+    }
+
+    .textAbout {
+        width: 60vw;
+        font-size: 13px;
+    }
+
+    .contPrin {
+        height: 50vh;
+        padding-left: 15px;
+    }
+
+    .infoContact {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 1rem;
+    }
+
+    .mainInformation {
+        align-items: center;
+        min-height: 50vh;
+    }
+
+    .boxBenefits {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .imgBen {
+        height: 20vh;
+        width: 40vw;
+        padding-left: 8px;
+    }
+
+    ol,
+    ul {
+        width: 50vw;
+        font-size: 12px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .linkPages {
+        flex-direction: column;
+    }
+
+    .mainRaffle {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .raffleLocation {
+        width: 70vw;
+        height: 20vh;
+        margin-bottom: 10px;
+    }
+
+    .message {
+        height: 10vh;
+        max-width: 70vw;
+    }
+
+    .endForm {
+        flex-wrap: wrap;
+        padding-top: 5px;
+        justify-content: flex-start;
+    }
+
+    .terms {
+        padding: 4px;
+    }
+
+    .Submit {
+        height: 22px;
+        width: 80vw;
+    }
+
+    .formRaffle {
+        height: 70vh;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 80vw;
+    }
+
+    .map {
+        height: 15vh;
+        width: 80vw;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+}
